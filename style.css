@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+
+body,
+.normalize {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 40px 9%;
+}
+
+.container {
+  min-width: 600px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h2, .species-title {
+  text-align: center;
+  padding-left: 70px;
+}
+
+.card {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  border-bottom: none;
+}
+
+.place-list {
+  margin-bottom: 30px;
+}
+
+.place-left {
+  padding-top: 10px;
+  overflow: hidden;
+  object-fit: contain;
+  height: 100%;
+
+  border-right: 2px solid black;
+  flex-shrink: 1;
+}
+.place-right {
+  flex-shrink: 2;
+}
+
+.place-link {
+  display: block;
+  margin: 10px 13%;
+}
+.last {
+  border-bottom: 2px solid black;
+  margin-bottom: 100px;
+}
+
+.species {
+  margin-right: 30px;
+}
+
+.advantages-title {
+  font-size: 25px;
+  text-align: center;
+  padding-right: 70px;
+}
+
+.photo {
+  display: block;
+  width: 230px;
+  height: 250px;
+  float: left;
+  margin-right: 5px;
+}
+
+.photo-text, .strong-list {
+  font-size: 20px;
+}
+
+.advantages p:last-child {
+  margin-bottom: 100px;
+}
+
+.strong-title {
+  text-align: center;
+}
