@@ -2,93 +2,95 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 20px 50px;
+}
+
+
+ul {
+  list-style-type: disc;
+}
+
+.species ol li::marker {
+  font-weight: bold;
+}
+
 img {
   display: block;
-  width: 90%;
-  margin: 0 auto;
- 
 }
 
-body,
-.normalize {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  padding: 40px 9%;
-}
-
-.container {
-  min-width: 600px;
-  max-width: 640px;
-  margin: 0 auto;
-}
-
-h2, .species-title {
+h1 {
   text-align: center;
-  padding-left: 70px;
 }
 
-.card {
-  border: 2px solid black;
-  display: grid;
-  grid-template-columns: 2fr 4fr;
-  border-bottom: none;
+.species h3 {
+  text-align: center;
 }
 
-.place-list {
-  margin-bottom: 30px;
+table {
+  border-collapse: collapse; 
+  width: 100%; 
+  border: 1px solid #000;
 }
 
-.place-left {
-  padding-top: 10px;
-  overflow: hidden;
-  object-fit: contain;
-  height: 100%;
-
-  border-right: 2px solid black;
-  flex-shrink: 1;
-}
-.place-right {
-  flex-shrink: 2;
+td {
+  border: 1px solid #000;
+  padding: 10px;
+  vertical-align: top;
 }
 
-.place-link {
+td:last-child {
+  padding: 10px 0;
+}
+
+td img {
   display: block;
-  margin: 10px 13%;
+  margin: 0 auto;
+  width: 170px;
 }
-.last {
-  border-bottom: 2px solid black;
-  margin-bottom: 100px;
+
+td ul {
+  margin-bottom: 40px;
+}
+
+td a {
+  padding-left: 80px;
 }
 
 .species {
   margin-right: 30px;
 }
 
-.advantages-title {
-  font-size: 25px;
-  text-align: center;
-  padding-right: 70px;
+
+.species ol {
+  padding: 0;
+  list-style-position: inside;
 }
 
-.photo {
-  display: block;
-  width: 230px;
+.advantages {
+  font-size: 18px;
+}
+
+.advantages h2 {
+  text-align: center;
+}
+
+.advantages div img {
+  width: 250px;
   height: 250px;
   float: left;
   margin-right: 5px;
 }
 
-.photo-text, .strong-list {
-  font-size: 20px;
+.strong {
+  font-size: 18px;
 }
 
-.advantages p:last-child {
-  margin-bottom: 100px;
+.strong div:first-child {
+  clear: both;
 }
 
-.strong-title {
+.strong h3 {
+  clear: left;
   text-align: center;
 }
