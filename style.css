@@ -94,3 +94,9 @@ td a {
   clear: left;
   text-align: center;
 }
+
+@media print {
+  .advantages {
+    break-before: page;
+  }
+}
